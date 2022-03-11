@@ -13,3 +13,7 @@ output "private_subnet" {
 output "public_subnet" {
   value = aws_subnet.public
 }
+
+output "sg_backend_app" {
+  value = aws_security_group.backend_app
+}
